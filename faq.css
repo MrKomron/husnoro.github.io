@@ -1,0 +1,184 @@
+main{
+    background-color: #E7E5E8;
+}
+main h1{
+    margin: 60px 0 30px 100px;
+}
+
+main hr{
+    width: 8%;
+    height: 4px;
+    background-color: #6f51c7;
+    border: none;
+    margin: 20px 0px 70px 100px;
+}
+
+main ul li{
+    display: block;
+    margin-left: 100px;
+}
+
+main ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#34b8c0;
+    font-size: 18px;
+}
+
+main ul li a:hover{
+   text-decoration: underline;
+}
+
+.txt-g-faq{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#s-clinic{
+margin-top: 60px;
+}
+
+#need-app{
+    margin-top: 60px;
+}
+
+#accept{
+    margin-top: 60px;
+}
+
+.txt-g-faq p{
+    color: gray;
+    font-size: 18px;
+    width: 60%;
+    line-height: 25px;
+}
+
+
+main img{
+    margin-top: 100px;
+    width: 100%;
+}
+
+
+.letter-faq{
+    position: absolute;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    top: 1780px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.btn-faq{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    top: 1850px;
+    left: 160px;
+    text-align: center;
+    padding: 15px 35px;
+    border-radius: 40px;
+    border: none;
+    background-color: #6f51c7;
+}
+
+.btn-faq:hover{
+    background-color: #34b8c0;
+    transition: 0.7s;
+}
+
+
+
+
+@media screen and (min-width: 1536px) {
+    main{
+        background-color: #E7E5E8;
+    }
+    main h1{
+        margin: 60px 0 30px 100px;
+    }
+    
+    main hr{
+        width: 8%;
+        height: 4px;
+        background-color: #6f51c7;
+        border: none;
+        margin: 20px 0px 70px 100px;
+    }
+    
+    main ul li{
+        display: block;
+        margin-left: 100px;
+    }
+    
+    main ul li a{
+        text-decoration: none;
+        font-weight: bold;
+        color:#34b8c0;
+        font-size: 18px;
+    }
+    
+    main ul li a:hover{
+       text-decoration: underline;
+    }
+    
+    .txt-g-faq{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    
+    #s-clinic{
+    margin-top: 60px;
+    }
+    
+    #need-app{
+        margin-top: 60px;
+    }
+    
+    #accept{
+        margin-top: 60px;
+    }
+    
+    .txt-g-faq p{
+        color: gray;
+        font-size: 18px;
+        width: 60%;
+        line-height: 25px;
+    }
+    
+    
+    main img{
+        margin-top: 100px;
+    }
+    
+    
+    .letter-faq{
+        position: absolute;
+        text-transform: uppercase;
+        color: white;
+        font-size: 80px;
+        top: 1480px;
+        text-align: center;
+    }
+    
+    .btn-faq{
+        position: absolute;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        top: 1750px;
+        left: 700px;
+        text-align: center;
+        padding: 15px 35px;
+        border-radius: 40px;
+        border: none;
+        background-color: #6f51c7;
+    }
+    
+    .btn-faq:hover{
+        background-color: #34b8c0;
+        transition: 0.7s;
+    }
+}

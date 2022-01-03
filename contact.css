@@ -1,0 +1,319 @@
+main{
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.col-1 h1{
+    padding: 60px 0 60px 90px;
+    
+}
+
+.contact-form{
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    box-shadow:
+    0.8px 0.4px 9.6px -45px rgba(0, 0, 0, 0.023),
+    1.8px 0.9px 21.6px -45px rgba(0, 0, 0, 0.034),
+    3.2px 1.6px 37.5px -45px rgba(0, 0, 0, 0.041),
+    5.2px 2.5px 60.4px -45px rgba(0, 0, 0, 0.049),
+    8.4px 4.1px 97.5px -45px rgba(0, 0, 0, 0.056),
+    14.5px 7px 170.2px -45px rgba(0, 0, 0, 0.067),
+    31px 15px 382px -45px rgba(0, 0, 0, 0.09)
+  ;
+margin: 15px;
+    
+}
+
+
+.contact-form h2{
+    background-color: rgb(0, 119, 255);
+    padding: 15px 50px 15px 20px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+form{
+    padding: 20px;
+}
+
+form ::placeholder{
+    color: rgb(199, 199, 199);
+}
+
+form input{
+    width: 80%;
+    padding: 15px 20px;
+    margin: 10px;
+    border: 2px solid rgb(199, 199, 199);
+    font-size: 16px;
+}
+
+form input[type="datetime-local"]{
+    color: rgb(199, 199, 199);
+}
+
+form input:focus{
+    outline: 1px solid #57ccc3;
+    border: 2px solid #57ccc3;
+}
+
+form select{
+    width: 41%;
+    padding: 16px 20px;
+    margin: 10px;
+    -webkit-appearance: none;
+    border: 2px solid rgb(199, 199, 199);
+    color:rgb(199, 199, 199);
+    font-size: 16px;
+}
+
+form select:focus{
+    outline: 1px solid #57ccc3;
+    border: 2px solid #57ccc3;
+}
+
+.contact-btn{
+    padding: 15px;
+    width: 30%;
+    margin: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: 3px solid rgb(0, 119, 255);
+    background-color: rgb(0, 119, 255);
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.contact-btn:hover{
+    border: 3px solid rgb(0, 119, 255);
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 119, 255);
+    font-weight: bold;
+}
+
+
+.cont-info{
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.cont-info .first-col,.second-col,.third-col,.fourth-col,.fifth-col{
+    margin-bottom: 50px;
+}
+
+.cont-info .first-col a{
+    margin-right: 55px;
+}
+
+.third-col li{
+    list-style-type: none;
+}
+
+.cont-info h3{
+    font-size: 20px;
+    border-bottom: 2px solid rgb(114, 114, 114);
+    padding: 1px 10px;
+    width: 250px;
+}
+
+.cont-info i{
+    margin-top: 20px;
+    color: rgb(0, 119, 255);
+}
+
+.map iframe{
+    width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 0 9px 9px 9px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(0, 119, 255);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+  @media screen and (min-width: 1536px) {
+    main{
+        background-color: white;
+        overflow: hidden;
+    }
+    
+    
+    .col-1 h1{
+        padding: 60px 0 60px 90px;
+        
+    }
+    
+    .contact-form{
+        background-color: rgb(255, 255, 255);
+        float: left;
+        width: 50%;
+        box-shadow:
+        0.8px 0.4px 9.6px -45px rgba(0, 0, 0, 0.023),
+        1.8px 0.9px 21.6px -45px rgba(0, 0, 0, 0.034),
+        3.2px 1.6px 37.5px -45px rgba(0, 0, 0, 0.041),
+        5.2px 2.5px 60.4px -45px rgba(0, 0, 0, 0.049),
+        8.4px 4.1px 97.5px -45px rgba(0, 0, 0, 0.056),
+        14.5px 7px 170.2px -45px rgba(0, 0, 0, 0.067),
+        31px 15px 382px -45px rgba(0, 0, 0, 0.09)
+      ;
+    margin: 20px 0 30px 90px;
+        
+    }
+    
+    
+    .contact-form h2{
+        background-color: rgb(0, 119, 255);
+        padding: 15px 50px 15px 20px;
+        margin-right: 450px;
+        margin-bottom: 20px;
+        color: white;
+    }
+    
+    form{
+        padding: 20px;
+    }
+    
+    form ::placeholder{
+        color: rgb(199, 199, 199);
+    }
+    
+    form input{
+        width: 35%;
+        padding: 15px 20px;
+        margin: 10px;
+        border: 2px solid rgb(199, 199, 199);
+        font-size: 16px;
+    }
+    
+    form input[type="datetime-local"]{
+        color: rgb(199, 199, 199);
+    }
+    
+    form input:focus{
+        outline: 1px solid #57ccc3;
+        border: 2px solid #57ccc3;
+    }
+    
+    form select{
+        width: 41%;
+        padding: 16px 20px;
+        margin: 10px;
+        -webkit-appearance: none;
+        border: 2px solid rgb(199, 199, 199);
+        color:rgb(199, 199, 199);
+        font-size: 16px;
+    }
+    
+    form select:focus{
+        outline: 1px solid #57ccc3;
+        border: 2px solid #57ccc3;
+    }
+    
+    .contact-btn{
+        padding: 15px;
+        width: 30%;
+        margin: 10px;
+        border-radius: 20px;
+        outline: none;
+        border: 3px solid rgb(0, 119, 255);
+        background-color: rgb(0, 119, 255);
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .contact-btn:hover{
+        border: 3px solid rgb(0, 119, 255);
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(0, 119, 255);
+        font-weight: bold;
+    }
+    
+    
+    .cont-info{
+        float: right;
+        margin-right: 200px;
+        margin-top: -80px;
+    }
+    
+    .cont-info .first-col,.second-col,.third-col,.fourth-col,.fifth-col{
+        margin-bottom: 50px;
+    }
+    
+    .cont-info .first-col a{
+        margin-right: 55px;
+    }
+    
+    .third-col li{
+        list-style-type: none;
+    }
+    
+    .cont-info h3{
+        font-size: 20px;
+        border-bottom: 2px solid rgb(114, 114, 114);
+        padding: 1px 10px;
+        width: 250px;
+    }
+    
+    .cont-info i{
+        margin-top: 20px;
+        color: rgb(0, 119, 255);
+    }
+    
+    
+    .map iframe{
+        width: 100%;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        border-radius: 0 9px 9px 9px;
+      }
+      
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: rgb(0, 119, 255);
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    
+  }

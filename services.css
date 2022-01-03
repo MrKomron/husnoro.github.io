@@ -1,0 +1,112 @@
+ .extra-nav ul{
+    padding-bottom: 20px;
+    border-bottom: 3px solid red;
+}
+
+.extra-nav li{
+    text-align: center;
+    list-style-type: none;
+    display: block;
+    font-size: 30px;
+    padding: 15px;
+    line-height: 8px; 
+    color: gray;
+    font-weight: bold;
+    width: 100%;
+}
+ .extra-nav li:hover{
+    cursor: pointer;
+}
+ .extra-nav .act{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+    
+}
+
+.content-service h2{
+    margin-left: 150px;
+}
+
+.content-service img{
+    width: 100%;
+    height: auto;
+}
+
+.content-service h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.content-service p{
+    margin: 10px;
+    width: 95%;
+}
+
+.content-service button{
+    margin: 40px 0 50px 5px;
+    padding: 12px 40px 12px 40px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 2px solid violet;
+}
+
+
+@media screen and (min-width:1536px) {
+    .extra-nav ul{
+        float: left;
+        margin: 90px 100px 0 100px;
+        padding-bottom: 400px;
+        border-bottom: none;
+    }
+    
+    .extra-nav li{
+        list-style-type: none;
+        display: block;
+        font-size: 20px;
+        padding: 15px;
+        border-right: 3px solid red;
+        line-height: 8px; 
+        color: gray;
+        font-weight: bold;
+    }
+     .extra-nav li:hover{
+        cursor: pointer;
+    }
+     .extra-nav .act{
+        color: black;
+        text-decoration: underline;
+        text-decoration-color: blue;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 3px;
+        
+    }
+    
+    .content-service{
+        margin: 40px 0 50px 5px;
+    }
+    
+    .content-service h2{
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    
+    .content-service p{
+        margin: 40px 0 20px 45px;
+        width: 70%;
+    }
+    
+    .content-service button{
+        margin: 40px 0 50px 5px;
+        padding: 12px 40px 12px 40px;
+        font-size: 18px;
+        border-radius: 20px;
+        border: 2px solid violet;
+    }
+
+    .content-service img{
+        width: 50%;
+    }
+}

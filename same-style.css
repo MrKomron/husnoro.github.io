@@ -1,0 +1,392 @@
+
+::selection{
+    background-color: rgb(255, 123, 0);
+}
+
+                                                            /* INFO _ LINE */
+.top-nav{
+    background-color: rgb(0, 119, 255);
+}
+
+.top-nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 12px;
+    color: white;
+}
+
+.top-nav a{
+    color: white;
+}
+
+.info{
+    float: left;
+    margin-left: 120px;
+}
+
+.info li{
+    margin-right: 25px;
+}
+
+.fas{
+    margin-right: 10px;
+}
+
+.social{
+    margin-left: 120px;
+}
+
+.social a:hover{
+    color:rgb(90, 224, 0);
+}
+
+
+/* fa-map-marker-alt
+fa-envelope
+fa-phone-alt
+fa-instagram
+fa-linkedin
+fa-facebook */
+@media screen and (min-width:800px) and (max-width:1000px) {
+    .info{
+        margin-right: 150px;
+    }
+}
+
+@media screen and (min-width:1800px) and (max-width:1137px) {
+    .info{
+        margin-right: 150px;
+    }
+}
+
+@media screen and (min-width:1138px) {
+    .info{
+        margin-right: 120px;
+    }
+}
+
+@media screen and (min-width:1500px) {
+    .info{
+        margin-right: 400px;
+    }
+}
+
+                                                                /* MENU */
+
+.nav-menu li {
+    list-style: none;
+}
+
+.nav-item a, .nav-logo {
+    text-decoration: none;
+}
+
+.bak{
+    background-color: rgba(65, 195, 255, 0.527);
+    padding: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px 0px 80px;
+    
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #fdfdfd;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 50px;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.btn-app{
+    padding: 10px 20px 10px 20px;
+    border-radius: 6px;
+    border: 1px solid violet;
+    outline: none;
+    background: violet;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    transform: 0.3s;
+} 
+
+.nav-logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 900px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 216px;
+        flex-direction: column;
+        background-color: rgba(9, 87, 255, 0.637);
+        width: 100%;
+        border-radius: 5px;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 8px 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        margin-right: -80px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .nav-link{
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: #ffffff;
+        margin: 0px -30px 0px 0px;
+    }
+    .nav-item {
+        margin-left: 5rem;
+    }
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 0 9px 9px 9px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(0, 119, 255);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+  
+
+
+.foot-back{
+    background-color: rgb(48, 48, 48);
+    padding: 50px;
+}
+
+
+.footer img{
+    width: 15%;
+    float: left;
+    padding: -100px;
+    margin-right: 180px;
+}
+
+.footer .last-form .email{
+    float: left;
+    margin-top: 3px;
+    margin-left: 150px;
+    padding: 10px 100px 10px 30px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 25px;
+
+}
+.footer .last-form .email:focus{
+    outline:2px solid rgb(255, 0, 64);
+
+}
+
+.footer .last-form .btn-sub{
+    position: absolute;
+    top: 3905px;
+    border-radius: 0 20px 20px 0;
+    left: 880px;
+    outline: none;
+    border: 2px solid rgb(0, 119, 255);
+    padding: 13px 32px 13px 30px;
+    background-color: rgb(0, 119, 255);
+    font-size: 20px;
+    color: white;
+}
+
+.footer .last-form .btn-sub:hover{
+    border: 2px solid rgb(0, 119, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 119, 255);
+}
+
+.footer li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.footer ul{
+    margin-left: 1200px;
+}
+
+.footer li a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+.footer-container{
+    background-color: #212329;
+    padding: 60px 0 60px 0;
+}
+
+.footer-container img{
+  width: 120px;
+  margin-bottom: 40px;
+}
+
+.footer-main{
+    width: 90%;
+    height: 50vh;
+    background-color: #212329;
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 top;
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
+
+.footer-heading p{
+    width: 290px;
+}
+
+.footer-3 i{
+    margin-bottom: 30px;
+    color: rgba(0, 153, 255, 0.938);
+}
+.footer-3 li{
+    list-style-type: none;
+}
+
+.footer-heading h2{
+    margin-bottom: 40px;
+}
+
+.footer-heading a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.footer-heading a:hover{
+    color: red;
+    transition: 0.3s ease-out;
+}
+.footer-email-form input{
+    display: block;
+}
+
+.footer-email-form h2{
+    margin-bottom: 30px;
+}
+
+#footer-email{
+    width:250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border:none;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+#footer-email::placeholder , textarea::placeholder{
+    color:#b1b1b1
+}
+
+#footer-email-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #f9423d;
+    outline: none;
+    border:none;
+    color: white;
+    font-size: 18px;
+}
+
+#footer-email-btn:hover{
+    cursor: pointer;
+    background-color: skyblue;
+    transition: all 0.4s ease-out;
+}
+
+textarea{
+    border-radius: 6px;
+    padding-left: 10px;
+    font-size: 15px;
+    outline: none;
+    border:none;
+    padding-top: 3px;
+}

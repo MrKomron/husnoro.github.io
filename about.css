@@ -1,0 +1,232 @@
+.about-container .welcome{
+    font-size: 30px;
+}
+
+.about-container img{
+    float: left;
+    width: 90%;
+    height: auto;
+}
+
+.about-container i{
+    float: left;
+    color: rgb(0, 140, 255);
+    margin-left: 10px;
+}
+
+.about-container i:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.7s;
+}
+
+.goal span{
+   font-size: 25px;
+   margin: 10px;
+}
+
+.goal p{
+    margin: 20px;
+}
+
+.features li{
+    list-style-type: none;
+    display: inline-block;
+    border: 3px solid silver;
+    border-radius: 6px;
+    width: 85%;
+    margin: 8px;
+    padding: 15px;
+}
+
+.features i{
+    float: left;
+    color: rgb(0, 140, 255);
+    background-color: rgb(255, 255, 255);
+    border:1px solid silver;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.features li i:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 140, 255);
+    transition: 0.7s;
+}
+
+.features p{
+    width: 100%;
+}
+
+.line{
+    background-color: rgb(0, 132, 255);
+    padding: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.line button{
+    padding: 20px 50px 20px 50px;
+    border-radius: 32px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(0, 89, 255);
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.line button:hover{
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    background-color: rgb(0, 0, 0);
+    transition: 0.9s;
+}
+
+.team{
+    text-align: center;
+    font-size: 20px;
+}
+
+.img-doctors li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 30px;
+}
+
+.img-doctors span{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1356px){
+    
+
+
+.about-container{
+    margin: 50px 100px 50px 100px;
+}
+
+.about-container .welcome{
+    font-size: 30px;
+}
+
+.about-container img{
+    float: left;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.about-container i{
+    float: left;
+    color: rgb(0, 140, 255);
+}
+
+.about-container i:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.7s;
+}
+
+.goal span{
+   font-size: 25px;
+}
+
+.features li{
+    list-style-type: none;
+    display: inline-block;
+    border: 3px solid silver;
+    border-radius: 6px;
+    margin: 90px 20px 20px 50px;
+    width: 25%;
+    padding: 15px;
+}
+
+.features i{
+    float: left;
+    color: rgb(0, 140, 255);
+    background-color: rgb(255, 255, 255);
+    border:1px solid silver;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.features li i:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 140, 255);
+    transition: 0.7s;
+}
+
+.features p{
+    width: 100%;
+}
+
+.line{
+    background-color: rgb(0, 132, 255);
+    padding: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.line button{
+    padding: 20px 50px 20px 50px;
+    border-radius: 32px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(0, 89, 255);
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+.line button:hover{
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    background-color: rgb(0, 0, 0);
+    transition: 0.9s;
+}
+
+.team{
+    text-align: center;
+    font-size: 20px;
+}
+
+.img-doctors li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 30px;
+}
+
+.img-doctors span{
+    display: block;
+}
+}

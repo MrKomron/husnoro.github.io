@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top-information{
+    background-color: rgb(2, 120, 255);
+    padding: 9px;
+    color: white;
+}
+
+.first-line ul{
+   float: right;
+}
+
+.first-line li{
+    display: inline-block;
+    margin-left: 90px;
+}
+
+.first-line-cont{
+    padding-right: 200px;
+}
+
+.first-line-cont li{
+    margin-left: 19px;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    z-index: 1;
+}
+
+.menu{
+    margin-left: 100px;
+}
+
+.menu li{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 18px;
+    padding-top: 40px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.app{
+    background-color: rgb(2, 120, 255);
+    border-radius: 6px;
+    padding: 8px 15px 8px 15px;
+    margin-left: 100px;
+}
+
+.app a:hover{
+  box-shadow: 3px 3px 2px rgb(2, 82, 173);
+}
+
+.logo{
+    margin-right: 50px;
+}
+
+li a .simple{
+  text-decoration: none;
+}
+
+li a .app{
+  color: white;
+}
+
+
+.zoek form{
+    position: relative;
+    top: 10%;
+    left: 90%;
+    transform: translate(-60%,-60%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.zoek input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+}
+
+.zoek .fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 0.7s;
+}
+
+.zoek form:hover,
+form:valid{
+    width: 200px;
+    cursor: pointer;
+}
+
+.zoek form:hover input,
+form:valid input{
+    display: block;
+}
+
+.zoek form:hover .fa,
+form:valid .fa{
+    background: white;
+    color: #07051a;
+}
+
+
+.search a {
+  display: none;
+  position: absolute;
+  top: 70px;
+  bottom:0;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  color: white;
+  text-align: center; 
+  width: 100%;
+}
+
+.zoek form:valid a {
+  display: block;
+} 
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    width: auto;
+   
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  /* .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  } */
+  
+  /* Number text (1/3 etc) */
+  /* .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  } */
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+.doctor{
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    transform: rotate(
+45deg);
+    box-shadow: 5px 5px 0px 6px #e8f9fa;
+}
+
+.welcom{
+  margin-top: 40px;
+}
+
+.text{
+  
+    float:left;
+    margin-left: 100px;
+    width: 490px;
+}
+
+
+.video{
+    margin-left: 60%;
+    border-radius: 9px;
+    margin-bottom: 50px;
+}
+
+/* .hours{
+    background:url('https://www.drwolfrhinoplasty.com/wp-content/uploads/2017/03/bigstock-Plastic-surgeon-drawing-marks-177277051-min.jpg') no-repeat top center;
+} */
+
+.appointment{
+  position: absolute;
+    border:3px solid rgb(255, 255, 255);
+    width: 500px;
+    height: 700px;
+    background-color: rgb(160, 199, 231);
+    left: 90px;
+    top:1250px;
+    border-radius: 12px;
+   
+}
+
+.appointment input{
+  width: 300px;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 3px;
+  border:none;
+}
+
+
+.appointment form{
+  margin: 100px 15px 10px 80px;
+}
+
+.opening-hours{
+  background:url('https://www.drwolfrhinoplasty.com/wp-content/uploads/2017/03/bigstock-Plastic-surgeon-drawing-marks-177277051-min.jpg') no-repeat top center;
+    background-color: burlywood;
+   height: 560px;
+    padding: 100px;
+   
+    
+    
+}
+
+
+
+.open-text{
+  text-align: center;
+  background-color: rgb(2, 88, 248,0.3);
+  margin-left: 50%;
+  width: 759px;
+  height: 760px;
+  margin-top: -100px;
+}
+
+form select{
+  padding:15px 115px 15px 115px;
+  margin-top: 20px;
+  border:none;
+}
+
+.live{
+  margin-left: 80px;
+  padding:12px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border:none;
+  box-shadow: 1px 1px 15px rgb(37, 132, 255);
+  
+}
+.online{
+  margin-left: 20px;
+  padding:12px;
+  width: 152px;
+  border-radius: 6px;
+  border:none;
+  box-shadow: 1px 1px 15px rgb(37, 132, 255);
+}
+
+
+ .services h1{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.first-row .column{
+  float: left;
+  width: 150px;
+  margin-left: 180px;
+  margin-top: 50px;
+  border:3px solid rgb(241, 241, 241);
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 40px 10px 40px;
+  box-shadow: 0px 3px 15px rgb(118, 205, 255);
+}
+.second-row .column{
+  float: left;
+  width: 150px;
+  margin-left: 180px;
+  margin-top: 50px;
+  border:3px solid rgb(241, 241, 241);
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 40px 10px 40px;
+  box-shadow: 0px 3px 15px rgb(118, 205, 255);
+}
+
+
+/* .team{
+  margin-top: 450px;
+}
+
+.team h1{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.firstp img{
+  float: left;
+  border-radius: 50%;
+  border:12px solid white;
+  box-shadow: 6px 1px 12px rgb(214, 214, 214);
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.firstp img:hover{
+  border-radius: 50%;
+  border:12px solid rgb(0, 140, 255);
+  transition: 0.8s;
+} */ .slider-holder
+{
+  width: 800px;
+  height: 400px;
+  background-color: yellow;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.image-holder
+{
+  width: 2400px;
+  background-color: red;
+  height: 400px;
+  clear: both;
+  position: relative;
+ 
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+}
+
+.slider-image
+{
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+#slider-image-1:target ~ .image-holder
+{
+  left: 0px;
+}
+
+#slider-image-2:target ~ .image-holder
+{
+  left: -800px;
+}
+
+#slider-image-3:target ~ .image-holder
+{
+  left: -1600px;
+}
+
+.button-holder
+{
+  position: relative;
+  top: -20px;
+}
+
+.slider-change
+{
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: brown;
+}
